@@ -2,8 +2,20 @@
     display: flex;
     align-items: center;
     cursor: pointer;
+    transition: background-color 0.4s;
+    padding: 0;
+    margin-bottom: 10px;
+    border-top: none;
 }
 
-.video-item.item img {
+#video-item:hover {
+    background-color: red;
+}
+
+#video-item:hover .header {
+    color: white;
+}
+
+#video-item.item img {
     max-width: 180px;
 }
